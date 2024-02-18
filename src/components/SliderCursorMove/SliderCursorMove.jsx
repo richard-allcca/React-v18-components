@@ -1,9 +1,10 @@
 import { useState, useRef } from 'react';
 import './SliderCursorMove.css'; // Archivo de estilos para el slider
 import Items from './items-slider/Items';
+import PropTypes from 'prop-types';
 
 
-const SliderCursorMove = () => {
+const SliderCursorMove = ({ activeCard, list, scrollToCard, setActiveCard }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
@@ -23,7 +24,6 @@ const SliderCursorMove = () => {
     if (!isDragging) return;
     const x = e.pageX - sliderRef.current.offsetLeft;
     const walk = (x - startX) * 2; // Ajusta la sensibilidad según sea necesario
-    console.log("🚀 ~ handleMouseMove ~ walk:", walk)
     sliderRef.current.scrollLeft = scrollLeft - walk;
   };
 
@@ -35,9 +35,21 @@ const SliderCursorMove = () => {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
     >
-      <Items/>
+      <Items
+        activeCard={activeCard}
+        setActiveCard={setActiveCard}
+        list={list}
+        scrollToCard={scrollToCard}
+      />
     </div>
   );
 };
 
 export default SliderCursorMove;
+
+SliderCursorMove.propTypes = {
+  activeCard: PropTypes.number,
+  list: PropTypes.array,
+  scrollToCard: PropTypes.func,
+  setActiveCard: PropTypes.func,
+}
