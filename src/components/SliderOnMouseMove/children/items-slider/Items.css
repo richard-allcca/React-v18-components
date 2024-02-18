@@ -1,0 +1,49 @@
+.cards-ctn {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  overflow: auto;
+  padding: 16px 0px;
+  scroll-snap-align: start;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  width: 100%;
+}
+
+.card {
+  /* opacity: 0; */
+  /* transition: all 0.2s ease-in-out; */
+  /* visibility: hidden; */
+  background: var(--secondary);
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 208px;
+  justify-content: space-between;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 16px;
+  scroll-snap-align: start;
+  text-decoration: none;
+  transition: opacity 1s ease;
+}
+
+.card.active {
+  opacity: 1;
+  transition: opacity 1s ease;
+  /* visibility: visible; */
+}
+
+.card h2 {
+  /* color: var(--content-primary); */
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.card .currency {
+  color: var(--content-primary);
+  font-size: .8rem;
+  font-weight: 400;
+}

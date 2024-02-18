@@ -1,0 +1,8 @@
+.slider {
+  max-width: 1000px;
+  height: fit-content;
+  display: flex;
+  border: 1px solid red;
+  overflow: hidden;
+}
+
