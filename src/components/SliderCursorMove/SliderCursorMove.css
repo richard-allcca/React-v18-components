@@ -2,8 +2,9 @@
   max-width: 1000px;
   height: fit-content;
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid gray;
   overflow: hidden;
   padding: 4px;
+  border-radius: 9px;
 }
 

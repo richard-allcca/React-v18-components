@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SliderCursorMove from "../SliderCursorMove/SliderCursorMove";
-import './Slider.css'
+import './Slider.css';
 import ArrowIcon from './../../assets/ArrowIcon';
 
 const listImagesConfig = [
@@ -68,11 +68,23 @@ const Slider = () => {
   const scrollToCard = (index) => {
     const targetCard = document.getElementById(`img${index}`);
     const targetCardSmall = document.getElementById(`imgSmall${index}`);
+
+    // Verificar si el elemento ya está en el centro del contenedor
+    const container = targetCardSmall.parentElement;
+    const containerRect = container.getBoundingClientRect();
+    const cardRect = targetCardSmall.getBoundingClientRect();
+    const isCardInCenter = cardRect.left >= containerRect.left && cardRect.right <= containerRect.right;
+    console.log("🚀 ~ scrollToCard ~ isCardInCenter:", isCardInCenter)
+
     targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-    setTimeout(() => {
-      targetCardSmall.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-    }, 1100);
+
+    if (!isCardInCenter) {
+      setTimeout(() => {
+        targetCardSmall.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }, 1000);
+    }
   };
+
 
   useEffect(() => {
     scrollToCard(0);
@@ -102,8 +114,8 @@ const Slider = () => {
   const getCards = listImagesConfig.map((el, index) => {
     const isActive = index === activeCard;
     return (
-      <a
-        href={ `#img${index}` }
+      <div
+        // href={ `#img${index}` }
         className={ `card ${isActive ? 'active' : ''}` }
         key={ index }
         id={ `img${index}` }
@@ -113,7 +125,7 @@ const Slider = () => {
           <h2 role="presentation">{ el.amount }</h2>
           <div className="currency">{ el.currency }</div>
         </div>
-      </a>
+      </div>
     );
   });
 

@@ -21,6 +21,11 @@
   width: 38px;
 }
 
+.slider-ctn .arrow-button:last-child {
+  margin-left: -2px;
+  /* border: 1px solid red; */
+}
+
 .arrow-button:active {
   /* background-color: red; */
 }
@@ -68,7 +73,7 @@
   height: 208px;
   justify-content: space-between;
   max-width: 100%;
-  min-width: 95.5%;
+  min-width: 95.8%;
   padding: 16px;
   scroll-snap-align: start;
   text-decoration: none;
