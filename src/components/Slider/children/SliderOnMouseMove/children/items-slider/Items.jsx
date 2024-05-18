@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Items.css'
+import './Items.css';
 
 const listImagesConfig = [
 	{
@@ -64,10 +64,10 @@ const Items = () => {
 	const [ activeCard, setActiveCard ] = useState(0);
 
   const handleClickSmallCard = (index, event) => {
-		event.preventDefault()
-		setActiveCard(index)
+		event.preventDefault();
+		setActiveCard(index);
 		// scrollToCard(index)
-	}
+	};
 
   const getCards = listImagesConfig.map((el, index) => {
 		const isActive = index === activeCard;
@@ -91,7 +91,7 @@ const Items = () => {
     <>
       {getCards}
     </>
-  )
-}
+  );
+};
 
-export default Items
+export default Items;

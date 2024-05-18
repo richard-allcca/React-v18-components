@@ -1,0 +1,173 @@
+.ctn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.title-table {
+  height: 38px;
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+  grid-template-rows: 46px;
+  color: #555;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 10px;
+  max-width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  gap: 24px;
+}
+
+.title-table .title {
+  font-size: 22px;
+  align-self: center;
+  grid-column: 1/2;
+  height: 29px;
+  width: 100%;
+}
+
+.title-table .separator {
+  align-self: center;
+  grid-column: 2/3;
+  border-top: 1px solid #555;
+}
+
+.title-table .ad {
+  align-self: center;
+  background: #F5F5F5;
+  border-radius: 6px;
+  border: 1px solid #F68E01;
+  color: #1F1F1F;
+  font-style: normal;
+  font-weight: 300;
+  grid-column: 3/4;
+  height: 30px;
+  text-align: center;
+}
+
+.wrapper-table {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.t-head {
+  align-items: center;
+  background-color: gray;
+  background: #EAEAEA;
+  border-bottom: 1px solid #D5D5D5;
+  border-radius: 6px 6px 0px 0px;
+  border-radius: 8px;
+  color: black;
+  display: grid;
+  display: grid;
+  gap: 0px 0px;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "country PTS partidos-jugados PG PE PP DIF GC GF";
+  grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40px;
+  height: 40px;
+  max-width: 100%;
+  padding: 0 16px;
+}
+
+.t-head>div:not(.country) {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.t-head>div {
+  font-weight: bold;
+  color: #1F1F1F;
+  text-align: center;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.country {
+  grid-area: country;
+  justify-self: start;
+  /* font-weight: bold; */
+}
+
+.PTS {
+  grid-area: PTS;
+}
+
+.PJ {
+  grid-area: partidos-jugados;
+}
+
+.PG {
+  grid-area: PG;
+}
+
+.PE {
+  grid-area: PE;
+}
+
+.PP {
+  grid-area: PP;
+}
+
+.DIF {
+  grid-area: DIF;
+}
+
+.GC {
+  grid-area: GC;
+}
+
+.GF {
+  grid-area: GF;
+}
+
+/* row */
+
+.t-body {
+  border-radius: 8px;
+  padding: 0 16px;
+  max-width: 100%;
+  height: 50px;
+  color: black;
+  background: #FAFAFA;
+  display: grid;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "country1 pts pj pg pe pp dif gc gf"
+}
+
+.t-body>div:not(.row-country) {
+  width: 100%;
+  text-align: center;
+}
+
+.t-body>div {
+  color: #1F1F1F;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.row-country {
+  text-transform: uppercase;
+}
+
+.row-pts {
+  font-weight: bold;
+}

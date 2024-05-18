@@ -1,13 +1,14 @@
-import './Items.css'
 import PropTypes from 'prop-types';
 
-const Items = ({ activeCard, list, scrollToCard, setActiveCard  }) => {
+import './SmallCard.css';
+
+const SmallCard = ({ activeCard, list, scrollToCard, setActiveCard  }) => {
 
   const handleClickSmallCard = (index, event) => {
-		event.preventDefault()
-		setActiveCard(index)
-		scrollToCard(index)
-	}
+		event.preventDefault();
+		setActiveCard(index);
+		scrollToCard(index);
+	};
 
 	const getCardsSmall = () => {
 
@@ -35,14 +36,14 @@ const Items = ({ activeCard, list, scrollToCard, setActiveCard  }) => {
     <div className="cards-small-ctn">
       {getCardsSmall()}
     </div>
-  )
-}
+  );
+};
 
-export default Items
+export default SmallCard;
 
-Items.propTypes = {
+SmallCard.propTypes = {
   activeCard: PropTypes.number,
   list: PropTypes.array,
   scrollToCard: PropTypes.func,
   setActiveCard: PropTypes.func,
-}
+};

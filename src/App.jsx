@@ -1,16 +1,15 @@
-import './App.css'
-// import SliderOnMouseMove from './components/SliderOnMouseMove/SliderOnMouseMove';
-// import SliderCursorMove from './components/SliderCursorMove/SliderCursorMove';
-// import Slider from './components/slider/Slider';
-import Slider from './components/Slider/Slider';
+import './App.css';
+import CountDown from './components/Count-down-cup-america/CountDownMoment';
 
 function App() {
 
   return (
     <>
-      <Slider/>
+      {/* <Slider/> */}
+      {/* <Table/> */}
+      <CountDown targetDate="2024-05-19T00:00:00-05:00" />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

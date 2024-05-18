@@ -1,7 +1,8 @@
 import { useState, useRef } from 'react';
-import './SliderCursorMove.css'; // Archivo de estilos para el slider
-import Items from './items-slider/Items';
+import SmallCard from './small-card/SmallCard';
 import PropTypes from 'prop-types';
+
+import './SliderCursorMove.css';
 
 
 const SliderCursorMove = ({ activeCard, list, scrollToCard, setActiveCard }) => {
@@ -35,7 +36,7 @@ const SliderCursorMove = ({ activeCard, list, scrollToCard, setActiveCard }) => 
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
     >
-      <Items
+      <SmallCard
         activeCard={activeCard}
         setActiveCard={setActiveCard}
         list={list}
@@ -52,4 +53,4 @@ SliderCursorMove.propTypes = {
   list: PropTypes.array,
   scrollToCard: PropTypes.func,
   setActiveCard: PropTypes.func,
-}
+};

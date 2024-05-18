@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import SliderCursorMove from "../SliderCursorMove/SliderCursorMove";
-import './Slider.css';
 import ArrowIcon from './../../assets/ArrowIcon';
+import SliderCursorMove from "./children/SliderCursorMove/SliderCursorMove";
+
+import './Slider.css';
 
 const listImagesConfig = [
   {
@@ -74,7 +75,6 @@ const Slider = () => {
     const containerRect = container.getBoundingClientRect();
     const cardRect = targetCardSmall.getBoundingClientRect();
     const isCardInCenter = cardRect.left >= containerRect.left && cardRect.right <= containerRect.right;
-    console.log("🚀 ~ scrollToCard ~ isCardInCenter:", isCardInCenter)
 
     targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
 
