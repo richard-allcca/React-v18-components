@@ -2,29 +2,28 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  /* border: 1px solid red; */
+  margin: 0 16px;
 }
 
 .title-table {
-  height: 38px;
-  display: grid;
-  grid-template-columns: 80px 1fr 80px;
-  grid-template-rows: 46px;
   color: #555;
+  display: grid;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
+  gap: 24px;
+  grid-template-columns: 80px 1fr 80px;
+  grid-template-rows: 46px;
+  height: 38px;
   margin-bottom: 10px;
   max-width: 100%;
   padding-left: 12px;
   padding-right: 12px;
-  gap: 24px;
 }
 
 .title-table .title {
-  font-size: 22px;
   align-self: center;
+  font-size: 22px;
   grid-column: 1/2;
   height: 29px;
   width: 100%;
@@ -32,8 +31,8 @@
 
 .title-table .separator {
   align-self: center;
-  grid-column: 2/3;
   border-top: 1px solid #555;
+  grid-column: 2/3;
 }
 
 .title-table .ad {
@@ -50,52 +49,54 @@
 }
 
 .wrapper-table {
-  width: 100%;
   border-radius: 8px;
+  margin: 0 auto;
+  background: #EAEAEA;
+  border-radius: 6px 6px 0px 0px;
 }
 
-.t-head {
+.t-head-contain {
+  display: flex;
+  padding: 6px 12px;
+  column-gap: 24px;
   align-items: center;
-  background-color: gray;
-  background: #EAEAEA;
-  border-bottom: 1px solid #D5D5D5;
-  border-radius: 6px 6px 0px 0px;
-  border-radius: 8px;
+}
+
+.t-head-country {
+  width: 78px;
+  color: #1F1F1F;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.t-head-values {
+  align-items: center;
   color: black;
   display: grid;
-  display: grid;
-  gap: 0px 0px;
-  grid-auto-columns: 1fr;
+  column-gap: 16px;
   grid-auto-flow: row;
   grid-template-areas:
-    "country PTS partidos-jugados PG PE PP DIF GC GF";
-  grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 40px;
-  height: 40px;
-  max-width: 100%;
-  padding: 0 16px;
-}
-
-.t-head>div:not(.country) {
+    "PTS partidos-jugados DIF";
+  grid-template-columns: 1fr minmax(max-content, 1fr) 1fr;
+  grid-template-rows: 24px;
+  height: 36px;
   width: 100%;
-  text-align: center;
-  font-weight: bold;
+  align-content: center;
 }
 
-.t-head>div {
-  font-weight: bold;
+.t-head-values>div {
   color: #1F1F1F;
   text-align: center;
-  /* font-family: Roboto; */
-  font-size: 16px;
+  font-family: sans-serif;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
 }
 
-.country {
-  grid-area: country;
-  justify-self: start;
-  /* font-weight: bold; */
+.t-head-values :is(.PG, .PE, .PP, .GC, .GF) {
+  display: none;
 }
 
 .PTS {
@@ -106,17 +107,17 @@
   grid-area: partidos-jugados;
 }
 
-.PG {
-  grid-area: PG;
-}
+/* .PG {
+  display: none;
+} */
 
-.PE {
-  grid-area: PE;
-}
+/* .PE {
+  display: none;
+} */
 
-.PP {
-  grid-area: PP;
-}
+/* .PP {
+  display: none;
+} */
 
 .DIF {
   grid-area: DIF;
@@ -130,44 +131,98 @@
   grid-area: GF;
 }
 
-/* row */
+/* table - body */
 
-.t-body {
-  border-radius: 8px;
-  padding: 0 16px;
-  max-width: 100%;
-  height: 50px;
-  color: black;
-  background: #FAFAFA;
-  display: grid;
+.t-body-contain {
+  display: flex;
+  padding: 6px 12px;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.t-body-country {
+  width: 78px;
+  color: #1F1F1F;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.t-body-values {
+  /* border: 1px solid red; */
   align-items: center;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px;
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
+  column-gap: 16px;
+  /* grid-auto-flow: row; */
   grid-template-areas:
-    "country1 pts pj pg pe pp dif gc gf"
-}
-
-.t-body>div:not(.row-country) {
+    "PTS partidos-jugados DIF";
+  grid-template-columns: 1fr minmax(106px, 1fr) 1fr;
+  grid-template-rows: 24px;
+  height: 36px;
   width: 100%;
-  text-align: center;
+  align-content: center;
 }
 
-.t-body>div {
+.t-body-values>div {
   color: #1F1F1F;
-  /* font-family: Roboto; */
-  font-size: 16px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.row-country {
-  text-transform: uppercase;
+.t-body-values :is(.row-pg, .row-pe, .row-pp, .row-gc, .row-gf) {
+  display: none;
 }
 
 .row-pts {
-  font-weight: bold;
+  grid-area: PTS;
+}
+
+.row-pj {
+  grid-area: partidos-jugados;
+  display: flex;
+  gap: 16px;
+
+}
+
+.row-pj :is(.pj-1, .pj-2, .pj-3) {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  /* flex-shrink: 0; */
+  border-radius: 6px;
+  border: 1px solid #D5D5D5;
+}
+
+/* .row-pg {
+  display: none;
+} */
+
+/* .row-pe {
+  display: none;
+} */
+
+/* .row-pp {
+  display: none;
+} */
+
+.row-dif {
+  grid-area: DIF;
+}
+
+.row-gc {
+  grid-area: GC;
+}
+
+.row-gf {
+  grid-area: GF;
 }

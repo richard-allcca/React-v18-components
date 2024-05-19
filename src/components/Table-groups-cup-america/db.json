@@ -6,7 +6,11 @@
         {
           "pais": "Ecuador",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -17,7 +21,11 @@
         {
           "pais": "Colombia",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -28,7 +36,11 @@
         {
           "pais": "Perú",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -39,7 +51,11 @@
         {
           "pais": "Paraguay",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -55,7 +71,11 @@
         {
           "pais": "Brasil",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -66,7 +86,11 @@
         {
           "pais": "Estados Unidos",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -77,7 +101,11 @@
         {
           "pais": "Venezuela",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -88,7 +116,11 @@
         {
           "pais": "Bolivia",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -104,7 +136,11 @@
         {
           "pais": "Argentina",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -115,7 +151,11 @@
         {
           "pais": "Chile",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -126,7 +166,11 @@
         {
           "pais": "Uruguay",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -137,7 +181,11 @@
         {
           "pais": "México",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -153,7 +201,11 @@
         {
           "pais": "Equipo 1",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -164,7 +216,11 @@
         {
           "pais": "Equipo 2",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -175,7 +231,11 @@
         {
           "pais": "Equipo 3",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,
@@ -186,7 +246,11 @@
         {
           "pais": "Equipo 4",
           "puntos": 0,
-          "partidos_jugados": 0,
+          "partidos_jugados": {
+            "pj-1": true,
+            "pj-2": true,
+            "pj-3": false
+          },
           "pg": 0,
           "pe": 0,
           "pp": 0,

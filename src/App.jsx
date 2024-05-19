@@ -1,5 +1,6 @@
 import './App.css';
-import CountDown from './components/Count-down-cup-america/CountDownMoment';
+import CountdownVanilla from './components/Count-down-cup-america/CountDown-vanilla/CountDownVanilla';
+import Table from './components/Table-groups-cup-america/Table';
 
 function App() {
 
@@ -7,7 +8,8 @@ function App() {
     <>
       {/* <Slider/> */}
       {/* <Table/> */}
-      <CountDown targetDate="2024-05-19T00:00:00-05:00" />
+      {/* <CountdownMoment targetDate="2024-05-19T00:00:00-05:00" /> */}
+      <CountdownVanilla limiteDate='20 may 2024, 15:00:00' />
     </>
   );
 }

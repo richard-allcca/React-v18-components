@@ -1,10 +1,38 @@
-#root {
-  max-width: 1280px;
-  width: 1103px;
-  height: 100vh;
-  /* background: #FFF; */
-  display: grid;
+*,
+*::after,
+*::before,
+html,
+body,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  /* padding: 2rem; */
-  /* text-align: center; */
+  height: 100vh;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
