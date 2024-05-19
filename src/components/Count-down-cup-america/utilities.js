@@ -1,4 +1,3 @@
-  // Zones from https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 const getTimezone = (timeZone = 'America/New_York') => {
   switch (timeZone) {
     case 'America/Argentina/Buenos_Aires':
