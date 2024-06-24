@@ -10,8 +10,8 @@ function App() {
       {/* <Slider/> */}
       {/* <Table/> */}
       {/* <CountdownMoment targetDate="2024-05-19T00:00:00-05:00" /> */}
-      {/* <CountdownVanilla limiteDate='22 may 2024, 15:00:00' /> */}
-      <FaceFinal/>
+      <CountdownVanilla limiteDate='22 may 2024, 15:00:00' />
+      {/* <FaceFinal/> */}
     </>
   );
 }
