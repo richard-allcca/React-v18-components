@@ -39,10 +39,7 @@ const useWindowSize = () => {
   const isTablet = isWindowWidthDefined && windowSize.width >= 578 && windowSize.width < 992;
   const isDesktop = isWindowWidthDefined && windowSize.width >= 992;
 
-  const isMobileFaceFinal = isWindowWidthDefined && windowSize.width <= 744;
-  const isTabletFaceFinal = isWindowWidthDefined && windowSize.width >= 744 && windowSize.width < 1100;
-
-  return { isMobile, isTablet, isDesktop, isMobileFaceFinal, isTabletFaceFinal };
+  return { isMobile, isTablet, isDesktop };
 };
 
 export default useWindowSize;

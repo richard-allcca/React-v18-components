@@ -1,0 +1,133 @@
+{
+    "title": "Voces - Entrevista A Matías Peralta Proske - \"Rogaba, lloraba y nadie venía por mí\"",
+    "description": "Voces - Entrevista A Matías Proske - \"Rogaba, lloraba y nadie venía por mí\"",
+    "kind": "Single Item",
+    "playlist": [
+        {
+            "title": "Voces - Entrevista A Matías Peralta Proske - \"Rogaba, lloraba y nadie venía por mí\"",
+            "mediaid": "OXtz6aSc",
+            "link": "https://cdn.jwplayer.com/previews/OXtz6aSc",
+            "image": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=720",
+            "images": [
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=320",
+                    "width": 320,
+                    "type": "image/jpeg"
+                },
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=480",
+                    "width": 480,
+                    "type": "image/jpeg"
+                },
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=640",
+                    "width": 640,
+                    "type": "image/jpeg"
+                },
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=720",
+                    "width": 720,
+                    "type": "image/jpeg"
+                },
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=1280",
+                    "width": 1280,
+                    "type": "image/jpeg"
+                },
+                {
+                    "src": "https://cdn.jwplayer.com/v2/media/OXtz6aSc/poster.jpg?width=1920",
+                    "width": 1920,
+                    "type": "image/jpeg"
+                }
+            ],
+            "duration": 3778,
+            "pubdate": 1726588428,
+            "description": "Voces - Entrevista A Matías Proske - \"Rogaba, lloraba y nadie venía por mí\"",
+            "tags": "@webott,@sociedad,@programacompleto,@tatianaschapiro,@voces",
+            "sources": [
+                {
+                    "file": "https://cdn.jwplayer.com/manifests/OXtz6aSc.m3u8",
+                    "type": "application/vnd.apple.mpegurl"
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-w8hcieWT.mp4",
+                    "type": "video/mp4",
+                    "height": 180,
+                    "width": 320,
+                    "label": "180p",
+                    "bitrate": 235683,
+                    "filesize": 111301411,
+                    "framerate": 25
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-0CHcgfSL.mp4",
+                    "type": "video/mp4",
+                    "height": 270,
+                    "width": 480,
+                    "label": "270p",
+                    "bitrate": 314229,
+                    "filesize": 148395029,
+                    "framerate": 25
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-gowsIJzC.mp4",
+                    "type": "video/mp4",
+                    "height": 720,
+                    "width": 1280,
+                    "label": "720p",
+                    "bitrate": 964515,
+                    "filesize": 455492676,
+                    "framerate": 25
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-OVWAiJCt.m4a",
+                    "type": "audio/mp4",
+                    "label": "AAC Audio",
+                    "bitrate": 113403,
+                    "filesize": 53554657
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-rhnl7eMv.mp4",
+                    "type": "video/mp4",
+                    "height": 1080,
+                    "width": 1920,
+                    "label": "1080p",
+                    "bitrate": 2806631,
+                    "filesize": 1325431646,
+                    "framerate": 25
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-2KgaOY5Z.mp4",
+                    "type": "video/mp4",
+                    "height": 360,
+                    "width": 640,
+                    "label": "360p",
+                    "bitrate": 361535,
+                    "filesize": 170735223,
+                    "framerate": 25
+                },
+                {
+                    "file": "https://cdn.jwplayer.com/videos/OXtz6aSc-HeIT2Id1.mp4",
+                    "type": "video/mp4",
+                    "height": 540,
+                    "width": 960,
+                    "label": "540p",
+                    "bitrate": 607426,
+                    "filesize": 286857341,
+                    "framerate": 25
+                }
+            ],
+            "tracks": [
+                {
+                    "file": "https://cdn.jwplayer.com/strips/OXtz6aSc-120.vtt",
+                    "kind": "thumbnails"
+                }
+            ],
+            "variations": {},
+            "Publicado_por": "Leo Senderovsky",
+            "Redaccion": "Argentina",
+            "Seccion": "Sociedad"
+        }
+    ],
+    "feed_instance_id": "3a29f2a5-a9a9-4ec6-afac-8c0c319a8736"
+}
