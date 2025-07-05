@@ -1,0 +1,68 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "PGgKtKoNFyqZKvhxmLDmrAweKI0",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "WgHbscd6Mwm-VEv1oELoubmOuzQ",
+            "id": "IY_5cQDgHk0",
+            "snippet": {
+                "publishedAt": "2024-12-27T11:42:23Z",
+                "channelId": "UCvsU0EGXN7Su7MfNqcTGNHg",
+                "title": "Jorge Macri anunciará la agenda 2025 Buenos Aires Primero",
+                "description": "Leé la nota en https://www.infobae.com/\n\nSuscribite al canal oficial de Infobae: http://youtube.com/infobae\nInformate, compartí e interactuá en nuestras redes sociales:\nTikTok: http://tiktok.com/@infobae\nInstagram: http://instagram.com/infobae\nFacebook: http://facebook.com/Infobae\nTwitter: http://twitter.com/infobae",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IY_5cQDgHk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IY_5cQDgHk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IY_5cQDgHk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/IY_5cQDgHk0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/IY_5cQDgHk0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Infobae",
+                "categoryId": "25",
+                "liveBroadcastContent": "none",
+                "defaultLanguage": "es-419",
+                "localized": {
+                    "title": "Jorge Macri anunciará la agenda 2025 Buenos Aires Primero",
+                    "description": "Leé la nota en https://www.infobae.com/\n\nSuscribite al canal oficial de Infobae: http://youtube.com/infobae\nInformate, compartí e interactuá en nuestras redes sociales:\nTikTok: http://tiktok.com/@infobae\nInstagram: http://instagram.com/infobae\nFacebook: http://facebook.com/Infobae\nTwitter: http://twitter.com/infobae"
+                },
+                "defaultAudioLanguage": "es-419"
+            },
+            "contentDetails": {
+                "duration": "PT24M6S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    },
+    "type": "video-youtube",
+    "_id": "4bb3f3af37be67f02020ee360e8d4b9c26be2c55954de817665944a212c1d092"
+}

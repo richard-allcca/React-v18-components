@@ -1,9 +1,6 @@
 *,
-*::after,
 *::before,
-html,
-body,
-*::before {
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,21 +8,16 @@ body,
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  /* background-color: #fff; */
-}
-
-img {
-  max-width: 100%;
+  background-color: #f0f0f0;
 }
 
 h1,
@@ -35,4 +27,11 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-weight: 600;
+  color: red;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
 }

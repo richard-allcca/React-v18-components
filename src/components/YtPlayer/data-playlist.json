@@ -1,0 +1,308 @@
+[
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "CLn3u_2cwaAJ3jbx_M2FhZeoscw",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+          "publishedAt": "2024-12-30T17:03:27Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "¿Por qué MI PRODUCTO que Programé NO GENERA GANANCIAS?",
+          "description": "En este video te darè algunas estrategías para que programes producto que genere ganancias\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://metalcode.io\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/UjHbwnkfc0s/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/UjHbwnkfc0s/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/UjHbwnkfc0s/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/UjHbwnkfc0s/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/UjHbwnkfc0s/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 0,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "UjHbwnkfc0s"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "UjHbwnkfc0s",
+          "videoPublishedAt": "2024-12-30T17:15:01Z"
+      }
+  },
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "hkm-HmRJvqRMt5e9Qc_0ZfjioaM",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+          "publishedAt": "2024-11-14T15:19:51Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "¿Cuánto COBRAR como PROGRAMADOR?",
+          "description": "En este video vamos a analizar cuando debemos cobrar como programadores nuestro trabajo.\n\n🎟 Mejora tu inglés en IMMIGO, ingresa para descuento especial aquí: https://dev.immigo.io/?via=hector-hd\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://hdeleon.net/cursos-premium/\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/eASBPS6k3MU/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/eASBPS6k3MU/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/eASBPS6k3MU/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/eASBPS6k3MU/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/eASBPS6k3MU/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 1,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "eASBPS6k3MU"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "eASBPS6k3MU",
+          "videoPublishedAt": "2024-11-14T15:32:00Z"
+      }
+  },
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "IM4LLk8nXoiIGCjzm_nFKxXbYz8",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+          "publishedAt": "2024-11-04T14:22:40Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "Estimar el Tiempo de Programación de tu APP MVP",
+          "description": "En este video vamos a analizar el alcance del proyecto MVP, para saber cuanto tiempo estimado me tomara terminarlo.\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://hdeleon.net/cursos-premium/\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/DZ2rv7rDoWw/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/DZ2rv7rDoWw/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/DZ2rv7rDoWw/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/DZ2rv7rDoWw/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/DZ2rv7rDoWw/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 2,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "DZ2rv7rDoWw"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "DZ2rv7rDoWw",
+          "videoPublishedAt": "2024-11-04T14:36:26Z"
+      }
+  },
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "K55djIsxJZVLwx_OvkipA9IEDTI",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+          "publishedAt": "2024-10-28T13:58:21Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "¿Qué Tecnología Usar para Tu MVP? ¡Elige la Mejor!",
+          "description": "En este video vamos a analizar cual tecnologías es mas optima para desarrollar un proyecto de Software.\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://hdeleon.net/cursos-premium/\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/jhHu7TfX3nA/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/jhHu7TfX3nA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/jhHu7TfX3nA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/jhHu7TfX3nA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/jhHu7TfX3nA/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 3,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "jhHu7TfX3nA"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "jhHu7TfX3nA",
+          "videoPublishedAt": "2024-10-28T14:07:07Z"
+      }
+  },
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "jxYwrJHBMvxu15xrP2sqzBTNTqw",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+          "publishedAt": "2024-10-18T19:29:00Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "De Idea a App Exitosa: El Primer Paso Que Debes Tomar",
+          "description": "En este video te daré algunos tips que te ayudarán a pasar de la idea de un producto a plasmarla y desarrollarla para poder programarla.\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://hdeleon.net/cursos-premium/\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/clACW64cQJk/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/clACW64cQJk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/clACW64cQJk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/clACW64cQJk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/clACW64cQJk/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 4,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "clACW64cQJk"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "clACW64cQJk",
+          "videoPublishedAt": "2024-10-17T15:06:06Z"
+      }
+  },
+  {
+      "kind": "youtube#playlistItem",
+      "etag": "urDjauVu29xVRZ56DrCMAcaDaUU",
+      "id": "UExXWUtmU2Jkc2pKaTRQSHNyZ2lucWE5bHp6bE84V0JfXy41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+          "publishedAt": "2024-10-18T19:28:50Z",
+          "channelId": "UCDUdeFslCNoM29MAlZOfdWQ",
+          "title": "Programar un Producto que genere DINERO",
+          "description": "En este video te daré mi punto de vista según mi experiencia de los pasos para programar un producto propio el cual pueda llegar al punto de generar dinero.\n\n🍺 Mis Cursos de PROGRAMACIÓN: https://hdeleon.net/cursos-premium/\n\n📚 Mis Libros\n📖 Aprender a Programar con C#: https://hdeleon.net/libro-aprender-a-programar-con-c-hector-de-leon/\n\n🤖 Mi Setup\n🖥️ Mi Monitor: https://amzn.to/3dtnDkk\n⌨️ Mi Teclado: https://amzn.to/3BtjKnq\n⌨️ Mi Deck elgato: https://amzn.to/3dvEKC3\n🎧 Mis Orejeras: https://amzn.to/3BwQYm0\n🎤 Mi Micrófono: https://amzn.to/3qPvFHh\n\nSi quieres apoyarme y darme para una cerveza puedes hacerlo por aquí: http://paypal.me/HectorDeLeonGuevara\n\nPuedes apoyarme desde 0.5 USD al mes uniéndote como miembro al canal aquí: https://www.youtube.com/channel/UCDUdeFslCNoM29MAlZOfdWQ/join\n\n🐦Twitter:  https://twitter.com/powerhdeleon\n🌎Mi Sitio web: http://hdeleon.net\n📻Raw Radio en Spotify: https://open.spotify.com/show/3obLU60alE7CGpzNeTS0kN\n\n#programación #dev #programming",
+          "thumbnails": {
+              "default": {
+                  "url": "https://i.ytimg.com/vi/SE9ygHqpU6c/default.jpg",
+                  "width": 120,
+                  "height": 90
+              },
+              "medium": {
+                  "url": "https://i.ytimg.com/vi/SE9ygHqpU6c/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+              },
+              "high": {
+                  "url": "https://i.ytimg.com/vi/SE9ygHqpU6c/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+              },
+              "standard": {
+                  "url": "https://i.ytimg.com/vi/SE9ygHqpU6c/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+              },
+              "maxres": {
+                  "url": "https://i.ytimg.com/vi/SE9ygHqpU6c/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+              }
+          },
+          "channelTitle": "hdeleon.net",
+          "playlistId": "PLWYKfSbdsjJi4PHsrginqa9lzzlO8WB__",
+          "position": 5,
+          "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "SE9ygHqpU6c"
+          },
+          "videoOwnerChannelTitle": "hdeleon.net",
+          "videoOwnerChannelId": "UCDUdeFslCNoM29MAlZOfdWQ"
+      },
+      "contentDetails": {
+          "videoId": "SE9ygHqpU6c",
+          "videoPublishedAt": "2024-10-14T14:37:30Z"
+      }
+  }
+]
